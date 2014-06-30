@@ -16,12 +16,12 @@
       <papget type="message_field" display="gauge" x="47" y="414">
         <property name="field" value="BAT:voltage"/>
         <property name="scale" value="0.1"/>
-        <property name="min" value="0."/>
+        <property name="min" value="5."/>
         <property name="max" value="15."/>
         <property name="size" value="50."/>
         <property name="text" value="Bat(V)"/>
       </papget>
-      <papget type="message_field" display="gauge" x="120" y="414">
+      <papget type="message_field" display="gauge" x="130" y="414">
         <property name="field" value="BAT:throttle"/>
         <property name="scale" value="0.0104167"/>
         <property name="min" value="0."/>
@@ -29,7 +29,7 @@
         <property name="size" value="50."/>
         <property name="text" value="Throttle(%)"/>
       </papget>
-      <papget type="expression" display="gauge" x="200" y="414">
+      <papget type="expression" display="gauge" x="220" y="414">
         <property name="expr" value="ENERGY.bat*ENERGY.amp"/>
         <property name="min" value="0."/>
         <property name="max" value="25."/>
